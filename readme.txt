@@ -1,0 +1,1 @@
+Artifact location: http://localhost:8081/artifactory/libs-snapshot-local/sparkrest-1.0-SNAPSHOT-jar-with-dependencies.jar

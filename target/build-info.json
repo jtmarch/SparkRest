@@ -1,0 +1,137 @@
+{
+  "version" : "1.0.1",
+  "name" : "sparkrest",
+  "number" : "1454999817628",
+  "type" : "MAVEN",
+  "buildAgent" : {
+    "name" : "Maven",
+    "version" : "3.0.5"
+  },
+  "agent" : {
+    "name" : "Maven",
+    "version" : "3.0.5"
+  },
+  "started" : "2016-02-09T07:37:05.179+0100",
+  "durationMillis" : 14919,
+  "licenseControl" : {
+    "runChecks" : false,
+    "includePublishedArtifacts" : false,
+    "autoDiscover" : false,
+    "scopesList" : "",
+    "licenseViolationsRecipientsList" : ""
+  },
+  "buildRetention" : {
+    "count" : -1,
+    "deleteBuildArtifacts" : true,
+    "buildNumbersNotToBeDiscarded" : [ ]
+  },
+  "modules" : [ {
+    "properties" : {
+      "jdk.version" : "1.8"
+    },
+    "id" : "sparkrest:sparkrest:1.0-SNAPSHOT",
+    "artifacts" : [ {
+      "type" : "jar",
+      "sha1" : "96dec171b2d1a46a3fdcd0165b738168ae7b3e82",
+      "md5" : "416b4f95541cf1fc5bc411c13311de1a",
+      "name" : "sparkrest-1.0-SNAPSHOT.jar"
+    }, {
+      "type" : "pom",
+      "sha1" : "3fea897b20b5158223fc690d5330e574f89e7d0d",
+      "md5" : "d8e0dcebeba6415dff1a6c5f26bde4dc",
+      "name" : "sparkrest-1.0-SNAPSHOT.pom"
+    }, {
+      "type" : "jar-with-dependencies-jar",
+      "sha1" : "9a0637dc40e646aa2880763e6c1be1699d732b74",
+      "md5" : "8563a2047935d924adaf58c361d9ad9c",
+      "name" : "sparkrest-1.0-SNAPSHOT-jar-with-dependencies.jar"
+    } ],
+    "dependencies" : [ {
+      "type" : "jar",
+      "sha1" : "5e49f2599ec053af19a5501bad7612ee14382f85",
+      "md5" : "4bc205b2ff4997157b8f5e4846998abd",
+      "id" : "org.eclipse.jetty:jetty-io:9.0.2.v20130417",
+      "scopes" : [ "compile" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "3d775b3046435269578ddd439d8ed26723bb2d74",
+      "md5" : "80fbc58ff3f4fede0eac8b3684017162",
+      "id" : "org.eclipse.jetty:jetty-security:9.0.2.v20130417",
+      "scopes" : [ "compile" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "05b2bffa33a97578cd363099722e849e16e73492",
+      "md5" : "465fe85fe66984d274bcb107bd1426f4",
+      "id" : "org.eclipse.jetty:jetty-http:9.0.2.v20130417",
+      "scopes" : [ "compile" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "0aaaa85845fb5c59da00193f06b8e5278d8bf3f8",
+      "md5" : "f8e61ace5135ef2a775a0b80ac7012e9",
+      "id" : "org.eclipse.jetty.orbit:javax.servlet:3.0.0.v201112011016",
+      "scopes" : [ "compile" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "275bf457a6cf3a1afcc5927dd52a00bc12916ec9",
+      "md5" : "4da566777593e962f0c342eae93d6da1",
+      "id" : "org.eclipse.jetty:jetty-xml:9.0.2.v20130417",
+      "scopes" : [ "compile" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "0f26f99a2491774c0c81be34a30f7ebf92c17ab9",
+      "md5" : "dbcd7132dc77346373ee293828e14027",
+      "id" : "org.eclipse.jetty:jetty-util:9.0.2.v20130417",
+      "scopes" : [ "compile" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "8095d0b9f7e0a9cd79a663c740e0f8fb31d0e2c8",
+      "md5" : "c9847347b8ff4392a99b026440cc451e",
+      "id" : "org.slf4j:slf4j-simple:1.7.7",
+      "scopes" : [ "compile" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "dd8ddd2a736219331697c2e9ca8548f940cfa39a",
+      "md5" : "861b992380659c22bfed350f6f15e571",
+      "id" : "org.eclipse.jetty:jetty-webapp:9.0.2.v20130417",
+      "scopes" : [ "compile" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "83a175d8f19b93961f5a7ee94a20ce26a386c040",
+      "md5" : "7787b35446c4db739b2760bb949021df",
+      "id" : "org.eclipse.jetty:jetty-servlet:9.0.2.v20130417",
+      "scopes" : [ "compile" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "f2e4f1d2cb1d4ad07b71f4677417345e64e9979d",
+      "md5" : "66654fc65c8af513e1be2b9e7c11ea3c",
+      "id" : "org.eclipse.jetty:jetty-server:9.0.2.v20130417",
+      "scopes" : [ "compile" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "81f1902a10e46bf8bd102d8727ca45d779e3c197",
+      "md5" : "dd325884c175c9079affa702dd7fc6d0",
+      "id" : "com.sparkjava:spark-core:2.0.0",
+      "scopes" : [ "compile" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "686c608d1805b6d4d425ec4459e88164ffc85870",
+      "md5" : "929d94512e63f6ee2efd8cb57048f310",
+      "id" : "com.google.code.gson:gson:2.5",
+      "scopes" : [ "compile" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "0081d61b7f33ebeab314e07de0cc596f8e858d97",
+      "md5" : "21216c2ee1bf4f097a51e49418527100",
+      "id" : "org.slf4j:slf4j-api:1.7.2",
+      "scopes" : [ "compile" ]
+    } ]
+  } ],
+  "governance" : {
+    "blackDuckProperties" : {
+      "runChecks" : false,
+      "includePublishedArtifacts" : false,
+      "autoCreateMissingComponentRequests" : false,
+      "autoDiscardStaleComponentRequests" : false
+    }
+  }
+}
